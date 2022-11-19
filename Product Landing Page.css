@@ -1,0 +1,103 @@
+}
+h2 {
+  text-decoration: underline;
+  
+}
+#video {
+  background-color: black;
+  border: 1px solid red;
+  diplay: flex; 
+}
+#about {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-color: #1E90AA;
+  
+  
+}
+#form {
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+  text-decoration: underline;
+  display: flex;
+  <!--width: 0px;-->
+  text-align: center;
+  flex-direction: column;
+  padding: 2%;
+  margin:0px auto;
+  width: 400px;
+  justify-content: center;
+  text-wrap: wrap;
+  flex-wrap: wrap;
+  flex-basis: auto;
+  
+}
+
+#header {
+  font-family: 'Nunito', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  background-color: #36454F;
+  border: 1px solid red;
+}
+#header-img {
+  width: 100%;
+  vertical-align: middle;
+  display: block;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+}
+  
+}
+iframe {
+   display: block;
+   margin: 0 auto;
+}
+    
+
+#header {
+  color: #FFD84B;
+  }
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #FFD84B;
+  overflow: hidden;
+  width: 100%;
+  vertical-align: middle;
+  display: block;
+  border: 1px solid red;
+  
+  
+   
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #AA381E;
+  text-align: center;
+  padding: 5px 12px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: 'Raleway', sans-serif;
+  
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: #AA381E;
+  transform: scale(1.2);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #AA381E;
+  color: white;
+}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: #AA381E;
+  }
+}
